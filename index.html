@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-body mx-auto">
+                        <h1>Lorem Ipsum Generator</h1>
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="form-group">
+                                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                        <label class="btn btn-warning active">
+                                            <input type="radio" name="type" id="type" autocomplete="off" checked value="all-meat"> Meat & Dummy
+                                        </label>
+                                        <label class="btn btn-warning">
+                                            <input type="radio" name="type" id="type" autocomplete="off" value="meat-and-filler"> All Meat
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="formControlRange">Number of Paragraph</label>
+                                    <input type="range" class="form-control-range" id="formControlRange" name="paras" value="3">
+                                </div>
+                                <div class="form-group">
+                                    <label for="formControlRange">Number of Sentence</label>
+                                    <input type="range" class="form-control-range" id="formControlRange" name="sentences" value="3">
+                                </div>
+                                <div class="form-group">
+                                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                        <label class="btn btn-warning active">
+                                            <input type="radio" name="format" id="format" autocomplete="off" checked value="json"> JSON
+                                        </label>
+                                        <label class="btn btn-warning">
+                                            <input type="radio" name="format" id="format" autocomplete="off" value="html"> HTML
+                                        </label>
+                                        <label class="btn btn-warning">
+                                            <input type="radio" name="format" id="format" autocomplete="off" value="text"> Text
+                                        </label>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <br>
+                        <div class="form-group">
+                            <button type="button" class="btn btn-warning form-control generate-btn">Generate</button>
+                        </div>
+                        <div class="form-group">
+                            <label for="textarea">Copy from here</label>
+                            <textarea class="form-control" id="textarea" rows="3"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
