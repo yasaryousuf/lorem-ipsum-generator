@@ -1,2 +1,2 @@
 # Lorem Ipsum Generator
-[Demo](https://codepen.io/yasar-yousuf/pen/xvzayj)
+[Codepen.io Demo](https://codepen.io/yasar-yousuf/pen/xvzayj)
